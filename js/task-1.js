@@ -1,8 +1,8 @@
+console.log("Задача 1. Генератор slug");
 function slugify(title){
     const slug = title.split(' ')
     return slug.join('-').toLocaleLowerCase()
 }
-
 console.log((slugify('Arrays for beginners'))); // "arrays-for-beginners"
 console.log(slugify("English for developer")); // "english-for-developer"
 console.log(slugify("Ten secrets of JavaScript")); // "ten-secrets-of-javascript"

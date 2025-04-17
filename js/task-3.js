@@ -1,3 +1,5 @@
+console.log("Задача 3. Фільтрація масиву чисел");
+
 function filterArray(numbers, value){
     const res = []
     for(item of numbers){

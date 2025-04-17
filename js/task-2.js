@@ -1,3 +1,5 @@
+console.log("Задача 2. Композиція масивів");
+
 function makeArray(firstArray, secondArray, maxLength) {
     const thirdArray = firstArray.concat(secondArray)
     return thirdArray.length > maxLength ? thirdArray.slice(0, maxLength) : thirdArray
